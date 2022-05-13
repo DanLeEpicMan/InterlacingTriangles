@@ -21,4 +21,4 @@ Then the output will be:
 ```
 The algorithm works by generating all possible permutations for an n rowed triangle then checking one by one if it is interlaced. As you can probably tell, this is very memory demanding; inputting 3 will generate 6! = 720 different triangles.
 
-If you're wondering what problem I attempted to solve, it essentially was "Given an n rowed triangle, how many triangles exist such that every entry is greater and less than the two entries below it?". I never actually solved it, but I found a (really big) upper bound that is essentially a double for loop. Contact me if you're curious ;)
+If you're wondering what problem I attempted to solve, it essentially was "Given all possible permutations for an n rowed triangle, how many of them follow a pattern such that every entry is greater and less than (in between) the two entries below it?". I never actually solved it, but I found a (really big) upper bound that is essentially a double for loop. Contact me if you're curious ;)
